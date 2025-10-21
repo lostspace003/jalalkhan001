@@ -4,6 +4,7 @@ on:
     types:
       - opened
 jobs:
+  show-info:
       runs-on: ubuntu-latest
       steps:
       - name: info
